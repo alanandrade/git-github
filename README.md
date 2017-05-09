@@ -1,31 +1,31 @@
 # Comandos git-github
 
 
-*------ Processo de envio ------*
+*------ <h1>Processo de envio</h1> ------*
 
-git clone https://github.com/alanandrade/git-github.git
-git init
-$ git config --global user.name "Alan Andrade"
-$ git config --global user.email alan.andradebispo@gmail.com
-git status
+<p>git clone https://github.com/alanandrade/git-github.git</p>
+<p>git init</p>
+<p>$ git config --global user.name "Alan Andrade"</p>
+<p>$ git config --global user.email alan.andradebispo@gmail.com</p>
+<p>git status</p>
 
-*------ Adicionando arquivos ------*
+*------ <h1>Adicionando arquivos</h1> ------*
 
-git add *
-git add nomedoarquivo.formato <!-- Para enviar somente um arquivo -->
-git commit -m "Primeiro envio"
-git push origin master
+<p>git add *
+<p>git add nomedoarquivo.formato</p> <!-- Para enviar somente um arquivo -->
+<p>git commit -m "Primeiro envio"</p>
+<p>git push origin master</p>
 		
 
-*------ Processo de Excluir arquivo ------*
+*------ <h1>Processo de Excluir arquivo</h1> ------*
 
-git rm -r teste.html
-git commit -m "Remover arquivo teste.html"
-git push origin master
+<p>git rm -r teste.html</p>
+<p>git commit -m "Remover arquivo teste.html"</p>
+<p>git push origin master</p>
 		
 
-*------ Processo de LOG: ------*
+*------ <h1>Processo de LOG:</h1> ------*
 
-git log
-git log -p</li> <!--Traz o log + as alteracoes em cada commit-->
+<p>git log</p>
+<p>git log -p</li></p> <!--Traz o log + as alteracoes em cada commit-->
 		
